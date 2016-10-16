@@ -1,0 +1,24 @@
+{
+  "name": "smart-thermo-pot",
+  "version": "0.0.0",
+  "description": "Проект по созданию умного термопота на базе Scarlett SC-ET10D02 и esp8266",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicumkicum-ideas/smart-thermo-pot.git"
+  },
+  "author": "kicumkicum@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kicumkicum-ideas/smart-thermo-pot/issues"
+  },
+  "homepage": "https://github.com/kicumkicum-ideas/smart-thermo-pot#readme",
+  "dependencies": {
+    "typescript": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile.file": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
