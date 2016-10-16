@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile.file": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
