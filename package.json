@@ -13,13 +13,11 @@
     "url": "https://github.com/kicumkicum-ideas/smart-thermo-pot/issues"
   },
   "homepage": "https://github.com/kicumkicum-ideas/smart-thermo-pot#readme",
-
   "dependencies": {
+    "ts-eventemitter": "^0.1.0",
     "typescript": "^2.0.3"
   },
-
   "devDependencies": {},
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
