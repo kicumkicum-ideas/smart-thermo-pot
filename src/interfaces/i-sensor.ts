@@ -1,5 +1,4 @@
 import IUnit from './i-unit';
-import TsEventEmitter from 'ts-eventemitter';
 
 
 interface ISensor extends IUnit {

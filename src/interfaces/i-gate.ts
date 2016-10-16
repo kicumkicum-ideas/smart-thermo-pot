@@ -1,8 +1,7 @@
-import TsEventEmitter from 'ts-eventemitter';
 import IUnit from './i-unit';
 
 
-interface IGate extends TsEventEmitter {
+interface IGate {
 	/**
 	 * Fired with: none
 	 */
