@@ -1,3 +1,5 @@
-export interface IType {
+interface IType {
 	toString(): string
 }
+
+export default IType;

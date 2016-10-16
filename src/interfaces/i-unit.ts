@@ -1,13 +1,16 @@
 import IType from './i-type';
-import TsEventEmitter from 'ts-eventemitter';
 
 
-export interface IUnit extends TsEventEmitter {
-	EVENT_CHANGE_TURN_STATUS: 'change-turn-status';
-	event(name: EVENT_CHANGE_TURN_STATUS): TsEventEmitter.Event1<this, boolean>
+export interface IUnit {
+	/**
+	 * Fired with: boolean
+	 */
+	EVENT_CHANGE_TURN_STATUS: string;
 
-	EVENT_CHANGE_NAME: 'change-name';
-	event(name: EVENT_CHANGE_NAME): TsEventEmitter.Event1<this, string>
+	/**
+	 * Fired with: string
+	 */
+	EVENT_CHANGE_NAME: string;
 
 	getType(): IType
 
@@ -19,3 +22,5 @@ export interface IUnit extends TsEventEmitter {
 
 	setTurn(on: boolean): void
 }
+
+export default IUnit;
