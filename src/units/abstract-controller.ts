@@ -1,8 +1,8 @@
-import IController from '../interfaces/i-controller';
+import IDevice from '../interfaces/i-device';
 import { Options } from './abstract-unit';
 import AbstractSensor from './abstract-sensor';
 
-export default class AbstractController extends AbstractSensor implements IController {
+export default class AbstractDevice extends AbstractSensor implements IDevice {
 	setValue(value: number) {
 		this._value = value;
 	}
